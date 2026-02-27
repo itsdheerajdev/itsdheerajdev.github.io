@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dheeraj Sharma | Professional Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0a0a0c',
+                        surface: '#121215',
+                        primary: '#6366f1',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-slate-200">
+
+    <!-- Navigation -->
+    <header
+        class="fixed top-0 left-0 w-full z-50 glass-nav border-b border-white/10 py-4 px-6 md:px-12 flex justify-between items-center text-white">
+        <a href="index.html" class="flex items-center gap-3 text-2xl font-extrabold tracking-tighter">
+            <img src="logo.png" alt="Logo" class="w-10 h-10 object-contain">
+            DHEERAJ <span class="text-primary italic">SHARMA</span>
+        </a>
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
+            <a href="index.html" class="hover:text-primary transition-colors">HOME</a>
+            <a href="about.html" class="text-primary transition-colors">ABOUT ME</a>
+            <a href="projects.html" class="hover:text-primary transition-colors">PROJECTS</a>
+            <a href="contact.html"
+                class="px-5 py-2.5 bg-primary text-white rounded-full hover:bg-opacity-90 transition-all">HIRE ME</a>
+        </nav>
+        <button id="menu-btn" class="md:hidden"><i data-lucide="menu"></i></button>
+    </header>
+
+    <main class="pt-32 pb-24 px-6 md:px-24">
+        <!-- Hero Section About -->
+        <div class="max-w-6xl mx-auto mb-24">
+            <h1 class="text-3xl md:text-5xl font-black italic mb-8 uppercase" data-aos="fade-up">WHO <span
+                    class="text-primary italic">AM I?</span></h1>
+            <div class="grid md:grid-cols-2 gap-16 items-start">
+                <div data-aos="fade-right">
+                    <p class="text-2xl text-slate-300 leading-relaxed mb-8">
+                        I am a Full Stack .NET Developer with a relentless pursuit of excellence in the digital realm.
+                        My work is defined by the intersection of robust engineering and innovative, performance-driven
+                        solutions.
+                    </p>
+                    <div class="glass p-8 rounded-3xl border border-primary/20 bg-primary/5">
+                        <h3 class="text-xl font-bold mb-4 flex items-center gap-2 text-primary">Mission & Values</h3>
+                        <p class="text-slate-400 leading-relaxed italic">
+                            "I believe consistency builds expertise. Every project I work on is an opportunity to
+                            improve performance, structure, and user experience. My goal is not just to write code, but
+                            to create solutions that add measurable value."
+                        </p>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed mt-4">
+                        I specialize in designing structured backend architecture, creating optimized database
+                        solutions, and building responsive user interfaces. My focus is on writing clean, maintainable
+                        code and delivering applications that solve real-world business problems.
+                </div> <!-- Close Text Content Column -->
+
+                <div class="relative max-w-sm mx-auto md:ml-auto" data-aos="fade-left">
+                    <img src="profile.png" alt="Profile"
+                        class="rounded-3xl border-2 border-white/10 w-full shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
+                    <div class="absolute -bottom-6 -left-6 glass px-6 py-4 rounded-xl hidden lg:block">
+                        <p class="text-xl font-black italic text-primary uppercase">Dheeraj Sharma</p>
+                        <p class="text-[10px] font-bold tracking-widest uppercase">Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Career Timeline -->
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-4xl font-bold mb-16 text-center italic uppercase">Professional <span
+                    class="text-primary">Journey</span></h2>
+
+            <div class="space-y-12">
+                <!-- Current Role -->
+                <div class="relative pl-12 border-l-2 border-primary/30" data-aos="fade-up">
+                    <div
+                        class="absolute -left-[11px] top-0 w-5 h-5 bg-primary rounded-full shadow-[0_0_15px_rgba(99,102,241,0.6)]">
+                    </div>
+                    <p class="text-primary text-sm font-bold uppercase tracking-widest mb-2">2024 - Present</p>
+                    <h3 class="text-2xl font-bold mb-1">Full Stack .NET Developer</h3>
+                    <p class="text-slate-200 font-medium mb-4 italic">Power Data Analytics</p>
+                    <p class="text-slate-400">
+                        Currently spearheading key digital initiatives at Power Data Analytics. I focus on
+                        architecting scalable web applications, optimizing data-driven platforms, and ensuring the
+                        highest standards of corporate tech implementation.
+                    </p>
+                </div>
+
+                <!-- First Company -->
+                <div class="relative pl-12 border-l-2 border-primary/30" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute -left-[11px] top-0 w-5 h-5 bg-slate-700 rounded-full"></div>
+                    <p class="text-slate-500 text-sm font-bold uppercase tracking-widest mb-2">The Foundation</p>
+                    <h3 class="text-2xl font-bold mb-1">Junior Developer</h3>
+                    <p class="text-slate-200 font-medium mb-4 italic text-primary">Mecatredz Technology Pvt Ltd
+                        Lucknow
+                    </p>
+                    <p class="text-slate-400">
+                        My career journey began at Mecatredz Technology. This is where I specialized in the .NET
+                        stack, mastering ASP.NET MVC, C#, and SQL Server. I contributed to enterprise-level
+                        solutions
+                        and learned the core of building reliable tech field related corporate software.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Expertise Section -->
+        <div class="max-w-6xl mx-auto mt-24">
+            <h2 class="text-2xl md:text-4xl font-bold mb-12 text-center italic uppercase">Technical <span
+                    class="text-primary">Expertise</span></h2>
+            <div class="glass p-10 rounded-[2.5rem] border border-white/10">
+                <p class="text-slate-300 text-lg leading-relaxed text-center max-w-4xl mx-auto">
+                    My technical expertise includes <strong>ASP.NET MVC, .NET Core, C#, SQL Server, Entity
+                        Framework,
+                        RESTful APIs, JavaScript, jQuery, AJAX, HTML5, CSS3, and Bootstrap</strong>. I have
+                    experience
+                    working with <strong>dynamic SQL, stored procedures, role-based authentication</strong>, and
+                    real-time data handling in enterprise-level applications.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-white/5 text-center">
+        <!-- Reusing same footer from index.html -->
+        <div class="max-w-6xl mx-auto">
+            <a href="index.html"
+                class="flex items-center justify-center gap-3 text-2xl font-extrabold tracking-tighter text-white mb-6">
+                <img src="logo.png" alt="Logo" class="w-8 h-8 object-contain">
+                DHEERAJ <span class="text-primary italic">SHARMA</span>
+            </a>
+            <div class="flex justify-center space-x-8 mb-8 text-sm text-slate-500 font-medium">
+                <a href="index.html" class="hover:text-white">HOME</a>
+                <a href="about.html" class="hover:text-white">ABOUT</a>
+                <a href="projects.html" class="hover:text-white">PROJECTS</a>
+                <a href="contact.html" class="hover:text-white">CONTACT</a>
+            </div>
+            <div class="max-w-3xl mx-auto mb-10">
+                <p class="text-slate-500 text-sm italic leading-relaxed px-6 border-l-2 border-primary/30 py-2">
+                    "I am continuously learning, adapting, and refining my skills to stay aligned with modern
+                    development standards."
+                </p>
+            </div>
+            <p class="text-slate-600 text-xs tracking-widest uppercase mb-4">&copy; 2026 DHEERAJ SHARMA. ALL RIGHTS
+                RESERVED.</p>
+            <div class="flex justify-center gap-6 text-slate-500">
+                <a href="https://github.com/itsdheerajdev" target="_blank"
+                    class="hover:text-white transition-all hover:scale-110"><i data-lucide="github"></i></a>
+                <a href="https://www.linkedin.com/in/dheeraj-sharma90/" target="_blank"
+                    class="hover:text-white transition-all hover:scale-110"><i data-lucide="linkedin"></i></a>
+                <a href="mailto:abhicare15@gmail.com" class="hover:text-white transition-all hover:scale-110"><i
+                        data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
